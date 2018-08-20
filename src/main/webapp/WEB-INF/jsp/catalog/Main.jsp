@@ -87,6 +87,6 @@ Exotic Varieties</div>
 
 <div id="Separator">&nbsp;</div>
 </div>
-
+<div>${message}</div>
 <%@ include file="../common/IncludeBottom.jsp"%>
 
