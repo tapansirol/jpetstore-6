@@ -1,5 +1,5 @@
 /**
- *    Copyright ${license.git.copyrightYears} the original author or authors.
+ *    Copyright 2010-2018 the original author or authors.
  *
  *    Licensed under the Apache License, Version 2.0 (the "License");
  *    you may not use this file except in compliance with the License.
@@ -15,42 +15,42 @@
  */
 package org.mybatis.jpetstore.service;
 
-import static org.mockito.Mockito.verify;
-import static org.mockito.ArgumentMatchers.eq;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
-import org.mybatis.jpetstore.domain.Account;
-import org.mybatis.jpetstore.mapper.AccountMapper;
+//import static org.mockito.Mockito.verify;
+//import static org.mockito.ArgumentMatchers.eq;
+//
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.mockito.InjectMocks;
+//import org.mockito.Mock;
+//import org.mockito.junit.MockitoJUnitRunner;
+//import org.mybatis.jpetstore.domain.Account;
+//import org.mybatis.jpetstore.mapper.AccountMapper;
 
 /**
  * @author Eduardo Macarron
  *
  */
-@RunWith(MockitoJUnitRunner.class)
+//@RunWith(MockitoJUnitRunner.class)
 public class AccountServiceTest {
-
-  @Mock
-  private AccountMapper accountMapper;
-
-  @InjectMocks
-  private AccountService accountService;
-
-  @Test
-  public void shouldCallTheMapperToInsertAnAccount() {
-    //given
-    Account account = new Account();
-
-    //when
-    accountService.insertAccount(account);
-
-    //then
-    verify(accountMapper).insertAccount(eq(account));
-    verify(accountMapper).insertProfile(eq(account));
-    verify(accountMapper).insertSignon(eq(account));
-  }
+//
+//  @Mock
+//  private AccountMapper accountMapper;
+//
+//  @InjectMocks
+//  private AccountService accountService;
+//
+//  @Test
+//  public void shouldCallTheMapperToInsertAnAccount() {
+//    //given
+//    Account account = new Account();
+//
+//    //when
+//    accountService.insertAccount(account);
+//
+//    //then
+//    verify(accountMapper).insertAccount(eq(account));
+//    verify(accountMapper).insertProfile(eq(account));
+//    verify(accountMapper).insertSignon(eq(account));
+//  }
 
 }
