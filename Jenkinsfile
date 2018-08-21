@@ -1,6 +1,6 @@
 node{
   stage ('cloning the repository'){
-	git 'https://github.com/DevSecOpsTeam/webdemo'
+	git 'https://github.com/DevSecOpsTeam/jpetstore-6'
   }
   stage ('Build') {
 	withMaven(jdk: 'JDK_local', maven: 'MVN_Local') {
