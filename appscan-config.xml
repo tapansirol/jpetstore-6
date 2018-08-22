@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><Configuration>
+  <Targets>
+    <Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6"/>
+  </Targets>
+  <TargetSettings>
+    <Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\src\main\webapp"/>
+    <Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\target\jpetstore"/>
+    <Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\target\jpetstore.war"/>
+    <Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\target\classes"/>
+  </TargetSettings>
+</Configuration>
