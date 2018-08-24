@@ -128,6 +128,6 @@
 
 </div>
 <body>
-	<div>${message}</div>
+	<div><c:out value = "${message}"/></div>
 </body>
 <div id="Content"><stripes:messages />
