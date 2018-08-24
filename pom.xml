@@ -363,9 +363,9 @@
     </profile>
     <!-- Profiles for JDK version -->
     <profile>
-      <id>jdk7</id>
+      <id>jdk8</id>
       <activation>
-        <jdk>1.7</jdk>
+        <jdk>1.8</jdk>
       </activation>
       <properties>
         <spring.version>4.3.18.RELEASE</spring.version>
