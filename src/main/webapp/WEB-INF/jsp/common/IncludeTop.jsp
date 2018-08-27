@@ -127,7 +127,5 @@
 </stripes:link></div>
 
 </div>
-<body>
-	<div><c:out value = "${message}" /></div>
-</body>
+
 <div id="Content"><stripes:messages />
