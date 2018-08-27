@@ -29,7 +29,7 @@ stage('publish artificats to ucd'){
             delivery: [
                 $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push',
                 pushVersion: '${BUILD_NUMBER}',
-                baseDir: 'workspace\\ucd-tapan\\target',
+                baseDir: 'workspace\\jpetstore\\target',
                 fileIncludePatterns: '*.war',
                 fileExcludePatterns: '',
                // pushProperties: 'jenkins.server=Jenkins-app\njenkins.reviewed=false',
