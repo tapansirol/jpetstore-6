@@ -42,7 +42,7 @@ stage('publish artificats to ucd'){
         	deploy: [
             	$class: 'com.urbancode.jenkins.plugins.ucdeploy.DeployHelper$DeployBlock',
             	deployApp: 'Demo-app',
-            	deployEnv: 'Test',
+            	deployEnv: 'JPetStore_Dev',
             	deployProc: 'Deploy Jenkins',
             	createProcess: [
                 	$class: 'com.urbancode.jenkins.plugins.ucdeploy.ProcessHelper$CreateProcessBlock',
