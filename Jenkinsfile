@@ -28,7 +28,7 @@ stage('publish artificats to ucd'){
             ],
             delivery: [
                 $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push',
-                pushVersion: '${BUILD_NUMBER}',
+                pushVersion: 'comp${BUILD_NUMBER}',
                 baseDir: 'workspace\\Demo-JPetStore\\target',
                 fileIncludePatterns: '*.war',
                 fileExcludePatterns: '',
@@ -48,7 +48,7 @@ stage('publish artificats to ucd'){
                 	$class: 'com.urbancode.jenkins.plugins.ucdeploy.ProcessHelper$CreateProcessBlock',
                 	processComponent: 'Deploy'
             	],
-            	deployVersions: 'jenkins-jpet-component:${BUILD_NUMBER}',
+            	deployVersions: 'jenkins-jpet-component:comp${BUILD_NUMBER}',
 		//deployVersions: 'SNAPSHOT=Base Configuration',
             	deployOnlyChanged: false
         ]
