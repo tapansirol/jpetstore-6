@@ -124,7 +124,14 @@
 	event="viewCategory">
 	<stripes:param name="categoryId" value="BIRDS" />
 	<img src="../images/sm_birds.gif" />
-</stripes:link></div>
+</stripes:link>
+<img src="../images/separator.gif" /> <stripes:link
+	beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+	event="viewCategory">
+	<stripes:param name="categoryId" value="INSECTS" />
+	<img src="../images/sm_insects.gif" />
+</stripes:link>
+</div>
 
 </div>
 

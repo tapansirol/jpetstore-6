@@ -62,7 +62,14 @@ Lizards, Turtles, Snakes <br />
 	<stripes:param name="categoryId" value="BIRDS" />
 	<img src="../images/birds_icon.gif" />
 </stripes:link> <br />
-Exotic Varieties</div>
+Exotic Varieties <br />
+<stripes:link
+	beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
+	event="viewCategory">
+	<stripes:param name="categoryId" value="INSECTS" />
+	<img src="../images/insects_icon.gif" />
+</stripes:link> <br />
+Six-legged creatures </div>
 </div>
 
 <div id="MainImage">
