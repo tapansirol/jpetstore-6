@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Configuration>
 	<Targets>
-	<Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\target\jpetstore.war">
+	<Target path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\src\main">
       <CustomBuildInfo additional_classpath="C:\java\lib;C:\java2\lib"
         jdk_path="C:\Program Files\Java\jdk1.8.0_181"/>
-      <Include>jpetstore.war</Include>
       <Exclude>thirdPartyJars/</Exclude>
-      <Exclude>*test*</Exclude>
     </Target>
 		<!-- <Target
 			path="C:\Users\kalra_m\eclipse-workspace-latest\jpetstore-6\src\main\webapp">
