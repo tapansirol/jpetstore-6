@@ -85,6 +85,11 @@ Exotic Varieties  </div>
 	usemap="#estoremap" width="350" /></div>
 </div>
 
+<div>
+<img src="../images/newbird.gif">
+<a href="Catalog.action?viewCategory=&categoryId=INSECTS" shape="RECT">New campaign</a>
+</div>
+
 <div id="Separator">&nbsp;</div>
 </div>
 <%@ include file="../common/IncludeBottom.jsp"%>
