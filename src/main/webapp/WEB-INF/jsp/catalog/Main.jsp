@@ -85,11 +85,6 @@ Exotic Varieties  </div>
 	usemap="#estoremap" width="350" /></div>
 </div>
 
-<div>
-<img src="../images/new_grooming_campaign.gif"><br />
-<a href="Catalog.action?viewCategory=&categoryId=NEWCAMP" shape="RECT">New campaign</a>
-</div>
-
 <div id="Separator">&nbsp;</div>
 </div>
 <%@ include file="../common/IncludeBottom.jsp"%>
