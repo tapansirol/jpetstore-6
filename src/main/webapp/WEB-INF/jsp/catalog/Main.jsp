@@ -86,8 +86,8 @@ Exotic Varieties  </div>
 </div>
 
 <div>
-<img src="../images/newcampaign.gif"><br />
-<a href="Catalog.action?viewCategory=&categoryId=INSECTS" shape="RECT">New campaign</a>
+<img src="../images/new_grooming_campaign.gif"><br />
+<a href="Catalog.action?viewCategory=&categoryId=NEWCAMP" shape="RECT">New campaign</a>
 </div>
 
 <div id="Separator">&nbsp;</div>
