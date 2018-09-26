@@ -84,8 +84,8 @@ Exotic Varieties  </div>
   <img height="355" src="../images/splash.gif" align="middle"
 	usemap="#estoremap" width="350" />
 </div>
-<div><img src="../images/new_grooming_campaign.gif"/> <br/>
-	<a href="Catalog.action?viewCategory=&categoryId=NEWCAMP" shape="RECT">New Campaign</a>
+<div><img src="../images/new_grooming_campaign.gif"> <br/>
+	<a>New Campaign</a>
 </div>
 <div id="Separator">&nbsp;</div>
 
