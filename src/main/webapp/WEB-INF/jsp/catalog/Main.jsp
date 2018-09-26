@@ -82,7 +82,8 @@ Exotic Varieties  </div>
 		href="Catalog.action?viewCategory=&categoryId=BIRDS" shape="RECT" />
   </map> 
   <img height="355" src="../images/splash.gif" align="middle"
-	usemap="#estoremap" width="350" /></div>
+	usemap="#estoremap" width="350" />
+	<img src="../images/new_grooming_campaign.gif"></div>
 </div>
 <div id="Separator">&nbsp;</div>
 </div>
