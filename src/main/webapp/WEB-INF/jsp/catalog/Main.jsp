@@ -55,7 +55,7 @@ Various Breeds, Exotic Varieties <br />
 	<stripes:param name="categoryId" value="REPTILES" />
 	<img src="../images/reptiles_icon.gif" />
 </stripes:link> <br />
-Lizards, Turtles, Snakes, Crocodiles<br />
+Lizards, Turtles, Snakes, Crocodiles  <br />
 <stripes:link
 	beanclass="org.mybatis.jpetstore.web.actions.CatalogActionBean"
 	event="viewCategory">
