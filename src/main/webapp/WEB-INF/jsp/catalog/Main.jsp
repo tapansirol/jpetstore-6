@@ -85,6 +85,7 @@ Exotic Varieties  </div>
 	usemap="#estoremap" width="350" />
 </div>
 </div>
+
 <div id="Separator">&nbsp;</div>
 </div>
 
