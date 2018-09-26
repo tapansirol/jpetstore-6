@@ -84,7 +84,6 @@ Exotic Varieties  </div>
   <img height="355" src="../images/splash.gif" align="middle"
 	usemap="#estoremap" width="350" /></div>
 </div>
-
 <div id="Separator">&nbsp;</div>
 </div>
 <%@ include file="../common/IncludeBottom.jsp"%>
