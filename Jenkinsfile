@@ -7,6 +7,11 @@ node{
       bat 'mvn clean package'
     } 
   }
+  
+	stage ("running appscan on cloud"){
+		appscan application: '13a06581-eb2c-4b1f-8002-6722126ae44e', credentials: 'ASOC_Staging', failBuild: true, failureConditions: [failure_condition(failureType: 'high', threshold: 4)], name: 'JPS_test', scanner: static_analyzer('${WORKSPACE}'), type: 'Static Analyzer', wait: true   
+	}
+
 //stage ("running appscan on cloud"){
 // 	appscan application: '13a06581-eb2c-4b1f-8002-6722126ae44e', credentials: 'ASOC_Staging', failBuild: true, failureConditions: [failure_condition(failureType: 'high', threshold: 4)], name: 'JPS_test', scanner: static_analyzer('C:\\Users\\kalra_m\\eclipse-workspace-latest\\jpetstore-6'), type: 'Static Analyzer', wait: true   
 // }
