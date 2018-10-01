@@ -85,7 +85,7 @@ Exotic Varieties  </div>
 	usemap="#estoremap" width="350" /></div>
 </div>
 <div>
-<a><img src="../images/new_grooming_campaign.gif"></a>
+<a href="Catalog.action?viewCategory=&categoryId=NEWCAMP" shape="RECT"><img src="../images/new_grooming_campaign.gif"></a>
 </div>
 <div id="Separator">&nbsp;</div>
 </div>
