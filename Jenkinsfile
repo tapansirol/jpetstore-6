@@ -8,12 +8,12 @@ node{
     } 
   }
 // Sonarqube static code analysis	
-  stage('SonarQube Analysis'){
-		def mvnHome = tool name : 'MVN_Local', type:'maven'
-		withSonarQubeEnv('sonar-server'){
-			bat "mvn sonar:sonar"
-		}
-}
+ // stage('SonarQube Analysis'){
+//		def mvnHome = tool name : 'MVN_Local', type:'maven'
+//		withSonarQubeEnv('sonar-server'){
+//			bat "mvn sonar:sonar"
+//		}
+//}
 	stage ("running appscan on cloud"){
 		appscan application: '13a06581-eb2c-4b1f-8002-6722126ae44e', credentials: 'ASOC_Staging', failBuild: true, failureConditions: [failure_condition(failureType: 'high', threshold: 4)], name: 'JPS_test', scanner: static_analyzer('C:\\Program Files (x86)\\Jenkins\\workspace\\Demo-JPetStore'), type: 'Static Analyzer', wait: true   
 	}
