@@ -11,7 +11,7 @@ node{
   stage('SonarQube Analysis'){
 		def mvnHome = tool name : 'MVN_Local', type:'maven'
 		withSonarQubeEnv('sonar-server'){
-			bat "SONAR_USER_HOME=C:\\.sonar ${mvnHome}/bin/mvn sonar:sonar"
+			bat "C:\\.sonar ${mvnHome}/bin/mvn sonar:sonar"
 		}
 }
 	stage ("running appscan on cloud"){
