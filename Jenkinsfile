@@ -11,7 +11,7 @@ node{
   stage('SonarQube Analysis'){
 		def mvnHome = tool name : 'MVN_Local', type:'maven'
 		withSonarQubeEnv('sonar-server'){
-			sh "SONAR_USER_HOME=/opt/bitnami/jenkins/.sonar ${mvnHome}/bin/mvn sonar:sonar"
+			bat "SONAR_USER_HOME=C:\sonar-scanner ${mvnHome}/bin/mvn sonar:sonar"
 		}
 }
 	stage ("running appscan on cloud"){
