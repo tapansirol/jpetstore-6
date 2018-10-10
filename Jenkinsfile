@@ -1,5 +1,5 @@
 node{
-  stage ('cloning the repository'){
+  stage ('Cloning the repository'){
 	git 'https://github.com/DevSecOpsTeam/jpetstore-6'
   }
   stage ('Build') {
@@ -15,7 +15,7 @@ node{
 		}
 }
 
-stage ("running appscan on cloud"){
+stage ("Application Security on Cloud"){
 	appscan application: '13a06581-eb2c-4b1f-8002-6722126ae44e', credentials: 'ASOC_Staging', failBuild: true, failureConditions: [failure_condition(failureType: 'high', threshold: 4)], name: 'JPS_test', scanner: static_analyzer('C:\\Program Files (x86)\\Jenkins\\workspace\\Demo-JPetStore'), type: 'Static Analyzer', wait: true   
 }
 
@@ -27,7 +27,7 @@ stage ("running appscan on cloud"){
 //  	bat 'copy /Y target\\jpetstore.war C:\\Common\\apache-tomcat-8.5.32_Jenkins\\webapps'
 //  }
 
-stage('publish artificats to ucd'){
+stage('Publish artificats to UrbanCode Deploy'){
    step([$class: 'UCDeployPublisher',
         siteName: 'ucd-server',
         component: [
