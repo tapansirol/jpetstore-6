@@ -53,7 +53,7 @@ stage('Publish artificats to UrbanCode Deploy'){
         	siteName: 'ucd-server',
         	deploy: [
             	$class: 'com.urbancode.jenkins.plugins.ucdeploy.DeployHelper$DeployBlock',
-            	deployApp: 'Demo-app',
+            	deployApp: 'JPetStore',
             	deployEnv: 'JPetStore_Dev',
             	deployProc: 'Deploy-JPetStore',
             	createProcess: [
