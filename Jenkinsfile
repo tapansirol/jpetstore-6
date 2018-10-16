@@ -36,7 +36,7 @@ stage('Publish artificats to UrbanCode Deploy'){
             createComponent: [
                 $class: 'com.urbancode.jenkins.plugins.ucdeploy.ComponentHelper$CreateComponentBlock',
                 componentTemplate: '',
-                componentApplication: 'Demo-app'
+                componentApplication: 'JPetStore'
             ],
             delivery: [
                 $class: 'com.urbancode.jenkins.plugins.ucdeploy.DeliveryHelper$Push',
@@ -55,7 +55,7 @@ stage('Publish artificats to UrbanCode Deploy'){
             	$class: 'com.urbancode.jenkins.plugins.ucdeploy.DeployHelper$DeployBlock',
             	deployApp: 'Demo-app',
             	deployEnv: 'JPetStore_Dev',
-            	deployProc: 'Deploy Jenkins',
+            	deployProc: 'Deploy-JPetStore',
             	createProcess: [
                 	$class: 'com.urbancode.jenkins.plugins.ucdeploy.ProcessHelper$CreateProcessBlock',
                 	processComponent: 'Deploy'
