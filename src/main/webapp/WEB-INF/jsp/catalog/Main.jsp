@@ -84,7 +84,7 @@ Exotic Varieties  </div>
   <img height="355" src="../images/splash.gif" align="middle"
 	usemap="#estoremap" width="350" /></div>
 </div>
-<B> Demo Run 02 </B>
+<B> Demo Run - Dec 20th </B>
 <div>
 <a href="https://about.petco.com/2016-05-17-Petco-Features-7-Point-Pet-Care-Check-in-New-Grooming-Campaign" target="_blank" shape="RECT" ><img src="../images/new_grooming_campaign.gif"></a>
 </div>
